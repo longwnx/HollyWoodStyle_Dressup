@@ -1,0 +1,22 @@
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/longnguyenxuan/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/longnguyenxuan/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- using toolchain file:/Users/longnguyenxuan/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-- PROJECT_NAME:HollywoodDresup
+-- PROJECT_SOURCE_DIR:/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup
+-- COCOS2DX_ROOT_PATH:/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/cocos2d
+-- CMAKE_MODULE_PATH:/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/cocos2d/cmake/Modules/
+-- PROJECT_BINARY_DIR:/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/.cxx/Debug/6z543q4k/arm64-v8a
+-- ENGINE_BINARY_PATH:/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/.cxx/Debug/6z543q4k/arm64-v8a/engine
+-- CMAKE_GENERATOR: Ninja
+-- CMAKE_BUILD_TYPE: Debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/.cxx/Debug/6z543q4k/arm64-v8a

@@ -1,0 +1,94 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Các thư mục hệ thống
+.gradle/
+local.properties
+
+# Tệp cấu hình hệ thống
+*.hprof
+
+# Các thư mục build cho dự án Android
+app/build/
+
+# Các thư viện phụ thuộc tải xuống thông qua Gradle
+/.cxx/
+/.externalNativeBuild/
+.cxx/
+
+# Tệp cấu hình cá nhân
+*.xml
+*.sublime-workspace
+
+# Thư mục dành cho NDK
+obj/
+
+# Các tệp cấu hình Android Studio
+*.apk
+*.ap_
+*.db
+*.keystore
+*.jks
+*.bak
+*.orig
+
+# Các tệp dành cho bộ nhớ cache và dữ liệu ứng dụng
+output.json
+crashlytics-build.properties
+
+# Tệp cấu hình của hệ điều hành và IDE khác
+*~
+*.jar
+*.war
+*.ear
+
+# Cấu hình Firebase
+google-services.json
+app/google-services.json
+
+# Tệp dành cho môi trường phát triển
+.env
+
+# Cấu hình của Android Studio
+.cache/

@@ -1,0 +1,393 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourcompany.hollywoodstyled.dressup"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:6:5-66
+12-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:6:22-64
+13
+14    <uses-feature android:glEsVersion="0x00020000" />
+14-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:8:5-54
+14-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:8:19-51
+15
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:41:5-78
+16-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:41:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:42:5-75
+17-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:42:22-73
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:libcocos2dx] /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+18-->[:libcocos2dx] /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+19-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:25:5-79
+19-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:25:22-76
+20    <queries>
+20-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:28:5-44:15
+21
+22        <!-- For browser content -->
+23        <intent>
+23-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:31:9-37:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:30:17-69
+24-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:30:25-66
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:34:13-74
+26-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:34:23-71
+27
+28            <data android:scheme="https" />
+28-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:36:13-44
+28-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:36:19-41
+29        </intent>
+30        <!-- End of browser content -->
+31        <!-- For CustomTabsService -->
+32        <intent>
+32-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:40:9-42:18
+33            <action android:name="android.support.customtabs.action.CustomTabsService" />
+33-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:41:13-90
+33-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:41:21-87
+34        </intent>
+35        <!-- End of CustomTabsService -->
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/longnguyenxuan/.gradle/caches/transforms-3/dbde5ad3a5aca8be424a6bc19ab09f9f/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+38-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/longnguyenxuan/.gradle/caches/transforms-3/dbde5ad3a5aca8be424a6bc19ab09f9f/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+39    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+39-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+39-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+40    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+40-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+40-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+41
+42    <application
+42-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:10:5-40:19
+43        android:allowBackup="true"
+43-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:12:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.6.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/b3413770f91b553945ec39d743ccef10/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:13:9-43
+48        android:label="@string/app_name"
+48-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:11:9-41
+49        android:testOnly="true" >
+50
+51        <!-- Tell Cocos2dxActivity the name of our .so -->
+52        <meta-data
+52-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:16:9-17:45
+53            android:name="android.app.lib_name"
+53-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:16:20-55
+54            android:value="MyGame" />
+54-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:17:20-42
+55
+56        <activity
+56-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:19:9-33:20
+57            android:name="org.cocos2dx.cpp.AppActivity"
+57-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:20:13-56
+58            android:configChanges="orientation|keyboardHidden|screenSize"
+58-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:22:13-74
+59            android:exported="true"
+59-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:26:13-36
+60            android:label="@string/app_name"
+60-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:23:13-45
+61            android:launchMode="singleTask"
+61-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:25:13-44
+62            android:screenOrientation="portrait"
+62-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:21:13-49
+63            android:taskAffinity=""
+63-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:27:13-36
+64            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+64-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:24:13-71
+65            <intent-filter>
+65-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:28:13-32:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:29:17-69
+66-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:29:25-66
+67                <action android:name="android.intent.action.VIEW" />
+67-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:30:17-69
+67-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:30:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:31:17-77
+69-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:31:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <meta-data
+73-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:34:9-36:35
+74            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+74-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:35:13-81
+75            android:value="true" />
+75-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:36:13-33
+76        <meta-data
+76-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:37:9-39:59
+77            android:name="com.google.android.gms.ads.APPLICATION_ID"
+77-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:38:13-69
+78            android:value="@string/admob_application_id" />
+78-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:39:13-57
+79
+80        <activity
+80-->[com.google.android.gms:play-services-base:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/07dd62e5c6684f4761e080785c8f95da/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/07dd62e5c6684f4761e080785c8f95da/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/07dd62e5c6684f4761e080785c8f95da/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+83-->[com.google.android.gms:play-services-base:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/07dd62e5c6684f4761e080785c8f95da/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+84        <activity
+84-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:49:9-53:64
+85            android:name="com.google.android.gms.ads.AdActivity"
+85-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:50:13-65
+86            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+86-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:51:13-122
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:52:13-37
+88            android:theme="@android:style/Theme.Translucent" />
+88-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:53:13-61
+89
+90        <provider
+90-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:55:9-59:39
+91            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+91-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:56:13-76
+92            android:authorities="com.yourcompany.hollywoodstyled.dressup.mobileadsinitprovider"
+92-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:57:13-73
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:58:13-37
+94            android:initOrder="100" />
+94-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:59:13-36
+95
+96        <service
+96-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:61:9-64:40
+97            android:name="com.google.android.gms.ads.AdService"
+97-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:62:13-64
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:63:13-35
+99            android:exported="false" />
+99-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:64:13-37
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/eb388436a1551eb44fe81726c0715c52/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/eb388436a1551eb44fe81726c0715c52/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:18.1.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/eb388436a1551eb44fe81726c0715c52/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+104
+105        <provider
+105-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+107            android:authorities="com.yourcompany.hollywoodstyled.dressup.androidx-startup"
+107-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+108            android:exported="false" >
+108-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+109            <meta-data
+109-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+110                android:name="androidx.work.WorkManagerInitializer"
+110-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+111                android:value="androidx.startup" />
+111-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+112        </provider>
+113
+114        <service
+114-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+115            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+115-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+116            android:directBootAware="false"
+116-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+117            android:enabled="@bool/enable_system_alarm_service_default"
+117-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+118            android:exported="false" />
+118-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+119        <service
+119-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+120            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+120-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+121            android:directBootAware="false"
+121-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+122            android:enabled="@bool/enable_system_job_service_default"
+122-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+123            android:exported="true"
+123-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+124            android:permission="android.permission.BIND_JOB_SERVICE" />
+124-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+125        <service
+125-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+126            android:name="androidx.work.impl.foreground.SystemForegroundService"
+126-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+127            android:directBootAware="false"
+127-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+128            android:enabled="@bool/enable_system_foreground_service_default"
+128-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+129            android:exported="false" />
+129-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+130
+131        <receiver
+131-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+132            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+132-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+134            android:enabled="true"
+134-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+135            android:exported="false" />
+135-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+136        <receiver
+136-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+137            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+137-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+138            android:directBootAware="false"
+138-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+139            android:enabled="false"
+139-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+140            android:exported="false" >
+140-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+141            <intent-filter>
+141-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+142                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+142-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+142-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+143                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+143-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+143-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+144            </intent-filter>
+145        </receiver>
+146        <receiver
+146-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+147            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+147-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+148            android:directBootAware="false"
+148-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+149            android:enabled="false"
+149-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+150            android:exported="false" >
+150-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+151            <intent-filter>
+151-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+152                <action android:name="android.intent.action.BATTERY_OKAY" />
+152-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+152-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+153                <action android:name="android.intent.action.BATTERY_LOW" />
+153-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+153-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+154            </intent-filter>
+155        </receiver>
+156        <receiver
+156-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+157            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+157-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+158            android:directBootAware="false"
+158-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+159            android:enabled="false"
+159-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+160            android:exported="false" >
+160-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+161            <intent-filter>
+161-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+162                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+162-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+162-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+163                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+163-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+163-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+164            </intent-filter>
+165        </receiver>
+166        <receiver
+166-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+167            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+167-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+168            android:directBootAware="false"
+168-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+169            android:enabled="false"
+169-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+170            android:exported="false" >
+170-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+171            <intent-filter>
+171-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+172                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+172-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+172-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+173            </intent-filter>
+174        </receiver>
+175        <receiver
+175-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+176            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+176-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+177            android:directBootAware="false"
+177-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+178            android:enabled="false"
+178-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+179            android:exported="false" >
+179-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+180            <intent-filter>
+180-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+181                <action android:name="android.intent.action.BOOT_COMPLETED" />
+181-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+181-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+182                <action android:name="android.intent.action.TIME_SET" />
+182-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+182-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+183                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+183-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+183-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+184            </intent-filter>
+185        </receiver>
+186        <receiver
+186-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+187            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+187-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+189            android:enabled="@bool/enable_system_alarm_service_default"
+189-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+190            android:exported="false" >
+190-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+191            <intent-filter>
+191-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+192                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+192-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+192-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+193            </intent-filter>
+194        </receiver>
+195        <receiver
+195-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+196            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+196-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+197            android:directBootAware="false"
+197-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+198            android:enabled="true"
+198-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+199            android:exported="true"
+199-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+200            android:permission="android.permission.DUMP" >
+200-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+201            <intent-filter>
+201-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+202                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+202-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+202-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+203            </intent-filter>
+204        </receiver>
+205
+206        <service
+206-->[androidx.room:room-runtime:2.2.5] /Users/longnguyenxuan/.gradle/caches/transforms-3/f997d50b6ab710f7154e8610b4204452/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+207            android:name="androidx.room.MultiInstanceInvalidationService"
+207-->[androidx.room:room-runtime:2.2.5] /Users/longnguyenxuan/.gradle/caches/transforms-3/f997d50b6ab710f7154e8610b4204452/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+208            android:directBootAware="true"
+208-->[androidx.room:room-runtime:2.2.5] /Users/longnguyenxuan/.gradle/caches/transforms-3/f997d50b6ab710f7154e8610b4204452/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+209            android:exported="false" />
+209-->[androidx.room:room-runtime:2.2.5] /Users/longnguyenxuan/.gradle/caches/transforms-3/f997d50b6ab710f7154e8610b4204452/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+210    </application>
+211
+212</manifest>
