@@ -34,7 +34,6 @@
     "intermediatesFolder": "/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/build/intermediates/cxx/Debug/6z543q4k",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
       "ARM64_V8A"
     ],
     "buildTargetSet": [
@@ -136,6 +135,7 @@
         "rootBuildGradleFolder": "/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android",
         "sdkFolder": "/Users/longnguyenxuan/Library/Android/sdk",
         "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "arm64-v8a",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },

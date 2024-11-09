@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.yourcompany.hollywoodstyled.dressup"
+3    package="com.congchuacuatoi.vn"
 4    android:installLocation="auto"
 5    android:versionCode="1"
 6    android:versionName="1.0" >
@@ -8,7 +8,7 @@
 8    <uses-sdk
 9        android:minSdkVersion="26"
 9-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml
-10        android:targetSdkVersion="31" />
+10        android:targetSdkVersion="34" />
 10-->/Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml
 11
 12    <uses-permission android:name="android.permission.INTERNET" />
@@ -161,7 +161,7 @@
 90-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:55:9-59:39
 91            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
 91-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:56:13-76
-92            android:authorities="com.yourcompany.hollywoodstyled.dressup.mobileadsinitprovider"
+92            android:authorities="com.congchuacuatoi.vn.mobileadsinitprovider"
 92-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:57:13-73
 93            android:exported="false"
 93-->[com.google.android.gms:play-services-ads-lite:21.0.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/7cf9f3e8bcb3725fa94be992ea49232f/transformed/jetified-play-services-ads-lite-21.0.0/AndroidManifest.xml:58:13-37
@@ -188,7 +188,7 @@
 105-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
 106            android:name="androidx.startup.InitializationProvider"
 106-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
-107            android:authorities="com.yourcompany.hollywoodstyled.dressup.androidx-startup"
+107            android:authorities="com.congchuacuatoi.vn.androidx-startup"
 107-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
 108            android:exported="false" >
 108-->[androidx.work:work-runtime:2.7.0] /Users/longnguyenxuan/.gradle/caches/transforms-3/f543f15aa2620c3bb8ad4e24810c2986/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37

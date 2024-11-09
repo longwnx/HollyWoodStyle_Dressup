@@ -56,7 +56,7 @@ INJECTED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/
 INJECTED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:3:5-54
+		ADDED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml
 		INJECTED from /Users/longnguyenxuan/Apps/HollyWoodStyle_Dressup/HollywoodDresup/proj.android/app/AndroidManifest.xml
 	android:versionName
